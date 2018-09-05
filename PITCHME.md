@@ -41,6 +41,8 @@ $ mkdir -p go/bin go/pkg go/src
 $ export GOPATH=$HOME/go
 ```
 
+---
+
 ## Installation testen
 
 ```
@@ -54,3 +56,23 @@ func main() {
 $ cd $GOPATH
 $ go run main.go
 ```
+
+---
+
+## Command-Line Arguments
+
+```
+import os
+
+var args []string = os.Args
+```
+
+---
+
+## Exercise
+
+Schreibe ein EUR -> Dollar Konverter. Alle als Kommandozeilenparameter übergebenen Eurowerte werden in Dollar umgerechnet und ausgegeben.
+
+### Hints
+- https://golang.org/pkg
+- strconv.ParseFloat

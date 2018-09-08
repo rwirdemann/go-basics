@@ -73,6 +73,49 @@ var args []string = os.Args
 
 Schreibe ein EUR -> Dollar Konverter. Alle als Kommandozeilenparameter übergebenen Eurowerte werden in Dollar umgerechnet und ausgegeben.
 
-### Hints
+**Hints**
 - https://golang.org/pkg
 - strconv.ParseFloat
+
+---
+
+## Variablen
+
+```
+var firstname string
+var lastname = "Brunner"
+street := "Milchstrasse"
+```
+---
+
+## Schleife
+
+---
+
+## Bedingungen
+
+---
+
+## Pointer
+
+---
+
+## Types
+
+--
+
+## Basic Types
+
+--
+
+## Zusammengesetzte Typen
+
+--
+
+## Excercises
+- Word Count
+
+### Strings, Arrays, Slices
+- Schreibe ein Programm, das prüft ob zwei Strings Annagramme voneinander sind. MEHL == HELM, AMPEL == LAMPE
+- Schreibe eine Funktion reverse, die die Elemente einer Slice umdreht. Version 1: Liefer eine neue Slice. Version 2: In-Place
+
